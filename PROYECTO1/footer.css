@@ -1,0 +1,42 @@
+footer{
+    background-color: #db008d;
+    padding-top: 40px;
+    margin-top: 30px;
+    clear: both;
+}
+
+footer h2{
+    color: #2c1b1b;
+}
+
+footer div.contenedor::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+footer div.nosotros{
+    float: left;
+    width: 30%;
+    color: #ffffff;
+}
+
+footer div.menu{
+    float: right;
+    width: 40%;
+   text-align: right;
+}
+
+footer nav{
+    width: auto;
+}
+
+footer nav ul li  a{
+    width: auto;
+}
+
+p.derechos{
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+}

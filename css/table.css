@@ -1,0 +1,41 @@
+table, th,tr,td{
+    border: 2px black solid;
+    border-collapse: collapse;
+}
+
+table{
+
+    width: 2000px;
+
+}
+tr:nth-child(even)
+{
+
+background-color: blueviolet;
+}
+
+tr:nth-child(even){
+
+    background-color: greenyellow;
+}
+td
+{
+    height: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+th{
+    padding: 10px;
+}
+tr:hover{
+
+    transition: 5s;
+    background-color: black;
+    transition-duration: 1s;
+    
+
+}
+.contenedor{
+    overflow-x:scroll;
+}
+
